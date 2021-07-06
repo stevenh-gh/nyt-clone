@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 36px;
+    width: 100%;
+    padding: 4px 15px 2px;
+    position: fixed;
+}
+
+main {
+    padding-top: 36px;
+}
