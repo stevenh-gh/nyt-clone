@@ -14,3 +14,7 @@ header {
 main {
     padding-top: 36px;
 }
+
+article p {
+    font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+}
