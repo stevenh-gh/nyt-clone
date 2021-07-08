@@ -27,3 +27,8 @@ article h2 {
     line-height: 1.875rem;
     margin-bottom: 15px;
 }
+
+iframe {
+    width: 600px;
+    height: 337.5px;
+}
