@@ -25,6 +25,21 @@ h1 {
     margin-bottom: 20px;
 }
 
+.share li {
+    display: inline-block;
+}
+
+.share svg,
+.share img {
+    vertical-align: middle;
+    background-color: #eee;
+    border: 1px #eee solid;
+    border-radius: 100%;
+    padding: 5px;
+    height: 27px;
+    width: 27px;
+}
+
 article {
     margin-top: 60px;
 }
