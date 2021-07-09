@@ -15,9 +15,18 @@ main {
     padding-top: 36px;
 }
 
-article {
+article section {
     width: 600px;
     margin: auto;
+}
+
+#image-01 {
+    margin: auto;
+    width: 1200px;
+}
+
+#author-date {
+    padding: 30px 0;
 }
 
 article p,
