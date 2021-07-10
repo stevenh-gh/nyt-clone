@@ -94,6 +94,41 @@ article h2 {
     margin-bottom: 15px;
 }
 
+.science-times {
+    border-top: 1px solid rgb(226, 226, 226);
+    color: rgb(51, 51, 51);
+    padding-top: 12px;
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.science-times .txt {
+    margin-right: 20px;
+    /* width: 498px; */
+}
+
+.science-times span {
+    font-style: italic;
+}
+
+.science-times button {
+    padding: 6px 12px 4px;
+    margin-top: 4px;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    width: 55px;
+    font-size: 15px;
+    color: black;
+    font-weight: 700;
+    line-height: 1.25rem;
+    border-radius: 2px;
+    border: 1px solid black;
+    background: white;
+    width: auto;
+    white-space: nowrap;
+}
+
 iframe {
     width: 600px;
     height: 337.5px;
