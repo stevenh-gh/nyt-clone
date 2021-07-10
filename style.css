@@ -17,11 +17,44 @@ aside {
     position: absolute;
     right: 175px;
     top: 2050px;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+aside p {
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    margin-bottom: 15px;
+    padding-bottom: 12px;
+    font-weight: 700;
+    display: block;
+    border-bottom: 1px solid rgb(226, 226, 226);
+    letter-spacing: .02em;
 }
 
 aside img {
     height: 75px;
     width: 75px;
+}
+
+.pick {
+    display: flex;
+    height: 85%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pick-item {
+    display: flex;
+    height: 78px;
+}
+
+.pick-item p {
+    font-family: nyt-cheltenham-small, georgia, "times new roman";
+    margin: 5px 0 5px 10px;
+    border: none;
+    font-weight: 500;
+    line-height: 17px;
+    color: rgb(51, 51, 51);
 }
 
 main {
