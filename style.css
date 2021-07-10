@@ -56,6 +56,18 @@ h1 {
     height: 25px;
 }
 
+.comment {
+    vertical-align: middle;
+    background: transparent;
+    border: 1px solid rgb(102, 102, 102);
+    border-radius: 4px;
+    padding: 4px;
+    position: relative;
+    min-width: 26px;
+    min-height: 14px;
+    width: auto;
+}
+
 article {
     margin-top: 60px;
 }
