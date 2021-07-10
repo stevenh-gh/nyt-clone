@@ -11,6 +11,14 @@ header {
     position: fixed;
 }
 
+aside {
+    height: 311px;
+    width: 210px;
+    position: absolute;
+    right: 175px;
+    top: 2050px;
+}
+
 main {
     padding-top: 40px;
 }
