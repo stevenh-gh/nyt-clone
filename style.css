@@ -34,8 +34,11 @@ h1 {
     display: inline-block;
 }
 
-.share svg,
-.share img {
+.fb,
+.whatsapp,
+.twitter,
+.email,
+.more {
     vertical-align: middle;
     background-color: #eee;
     border: 1px #eee solid;
@@ -44,6 +47,13 @@ h1 {
     height: 27px;
     width: 27px;
     margin-right: 10px;
+}
+
+.ribbon {
+    vertical-align: middle;
+    margin-right: 10px;
+    width: 16px;
+    height: 25px;
 }
 
 article {
