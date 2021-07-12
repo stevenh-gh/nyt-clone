@@ -9,12 +9,17 @@ header {
     width: 100%;
     padding: 4px 15px 2px;
     position: fixed;
+}
+
+.head-wrap {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .left {
     display: flex;
+    gap: 23px;
 }
 
 .left-more,
@@ -50,6 +55,7 @@ header {
 
 .right {
     display: flex;
+    gap: 7px;
 }
 
 .sub-btn button,
