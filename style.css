@@ -9,6 +9,7 @@ header {
     width: 100%;
     padding: 4px 15px 2px;
     position: fixed;
+    z-index: 2;
 }
 
 .head-wrap {
