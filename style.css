@@ -300,3 +300,24 @@ iframe {
     font-weight: bold;
     letter-spacing: .05em;
 }
+
+.inflation footer {
+    margin-top: 24px;
+}
+
+.inflation footer hr {
+    width: 60px;
+    margin-bottom: 13px;
+    border: none;
+    height: 1px;
+    background-color: black;
+}
+
+.inflation footer p {
+    margin-bottom: 14px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: nyt-franklin, arial, helvetica, sans-serif;
+    line-height: 1.125rem;
+    color: #333;
+}
