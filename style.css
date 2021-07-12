@@ -268,4 +268,18 @@ iframe {
     background: url(https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png);
     background-size: 945px 576px;
     height: 576px;
+    font-family: nyt-franklin, arial, helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 300;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 1em;
+    align-items: end;
+}
+
+.grid-container .title {
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: .05em;
 }
