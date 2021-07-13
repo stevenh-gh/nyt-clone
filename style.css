@@ -273,7 +273,7 @@ iframe {
 .inflation h2 {
     margin-bottom: 2px;
     font-size: 20px;
-    font-family: nyt-cheltenham, georgia, times new roman, times, serif;
+    font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
     line-height: 1.5rem;
     font-weight: 700;
 }
@@ -282,7 +282,7 @@ iframe {
     font-size: 14px;
     margin-right: 7px;
     color: #666;
-    font-family: nyt-cheltenham-sh, georgia, times new roman, times, serif;
+    font-family: nyt-cheltenham-sh, georgia, 'times new roman', times, serif;
     font-weight: 400;
     line-height: 1.125rem;
 }
@@ -376,4 +376,53 @@ iframe {
     line-height: 1.5rem;
     border-radius: 3px;
     border: 1px solid rgb(50, 104, 145);
+}
+
+.subscribe {
+    height: auto;
+    border-top: 1px solid black;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.subscribe h1 {
+    display: block;
+    font-size: 16px;
+    margin: 40px 0 16px;
+    color: #333;
+    line-height: 1.2rem;
+    font-weight: 700;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-style: normal;
+}
+
+.subscribe h2 {
+    font-size: 40px;
+    color: #121212;
+    font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
+    font-weight: 200;
+    line-height: 3rem;
+    margin: 0;
+    padding: 0;
+}
+
+.subscribe button {
+    margin-top: 23px;
+    color: white;
+    background-color: #121212;
+    font-size: 16px;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    border-radius: 3px;
+    font-weight: 600;
+    height: 44px;
+    width: 332px;
+    border: 1px solid black;
+}
+
+.subscribe p {
+    color: #333;
+    margin-top: 16px;
+    font-size: 16px;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-weight: 500;
 }
