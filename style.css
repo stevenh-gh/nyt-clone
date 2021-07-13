@@ -133,13 +133,19 @@ h1 {
     margin-bottom: 20px;
 }
 
-.share {
+.share,
+.bottom-share {
     border-top: 1px solid #ebebeb;
     padding: 20px 0;
 }
 
-.share li {
+.share li,
+.bottom-share li {
     display: inline-block;
+}
+
+.bottom-share {
+    padding: 0;
 }
 
 .fb,
@@ -335,4 +341,39 @@ iframe {
     font-size: 13px;
     color: #888;
     letter-spacing: .01em;
+}
+
+.bottom p {
+    margin-bottom: 12px;
+    font-size: 12px;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    line-height: 1rem;
+    color: rgb(102, 102, 102);
+    display: block;
+}
+
+.bottom p a {
+    color: rgb(102, 102, 102);
+}
+
+.bottom-comments {
+    display: flex;
+    justify-content: space-between;
+    margin: 24px 0 32px;
+    height: 36px;
+}
+
+.bottom-comments-btn button {
+    color: white;
+    padding: 5px 0;
+    font-size: 13px;
+    background-color: #567b95;
+    width: 330px;
+    height: 36px;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    line-height: 1.5rem;
+    border-radius: 3px;
+    border: 1px solid rgb(50, 104, 145);
 }
