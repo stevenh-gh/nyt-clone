@@ -426,3 +426,23 @@ iframe {
     font-family: nyt-franklin, helvetica, arial, sans-serif;
     font-weight: 500;
 }
+
+.extra {
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-left: 3%;
+    padding-right: 3%;
+    width: 1200px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.extra>div {
+    background-color: #eee;
+}
+
+.extra>div:nth-child(odd) {
+    background-color: #fff;
+}
