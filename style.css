@@ -480,6 +480,40 @@ iframe {
 
 .more-space-astro {}
 
+.more-space-astro h2 {
+    display: block;
+    padding-top: 17px;
+    font-size: 16px;
+    color: black;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+}
+
+.more-space-astro img {
+    width: 272.63px;
+    height: 181.75;
+}
+
+.more-space-astro .container {
+    padding-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-auto-flow: row;
+    grid-gap: 1em;
+}
+
+.more-space-astro .container {
+    width: 272.63px;
+}
+
+.more-space-astro .container div:nth-child(3) {
+    grid-column: 1/2;
+}
+
+.more-space-astro .container div:nth-child(4) {
+    grid-column: 3/4;
+}
+
 .editors-picks {
     grid-column: 1/2;
 }
@@ -510,14 +544,16 @@ iframe {
     height: 181.75px;
 }
 
-.editors-picks h3 {
+.editors-picks h3,
+.more-space-astro h3 {
     font-size: 18px;
     color: #121212;
     line-height: 1.375rem;
     font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
 }
 
-.editors-picks figcaption {
+.editors-picks figcaption,
+.more-space-astro figcaption {
     text-align: right;
     margin-top: 3px;
     padding-bottom: 4px;
@@ -527,7 +563,8 @@ iframe {
     font-family: nyt-cheltenham-small, georgia, "times new roman";
 }
 
-.editors-picks .date {
+.editors-picks .date,
+.more-space-astro .date {
     font-size: 12px;
     color: #999;
     font-family: nyt-franklin, helvetica, arial, sans-serif;
