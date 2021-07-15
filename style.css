@@ -437,12 +437,48 @@ iframe {
     width: 1200px;
     display: grid;
     grid-template-columns: 2fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-auto-rows: minmax(500px, auto);
+    grid-gap: 3em;
+    /* grid-auto-columns: minmax(60px, auto); */
 }
 
 .extra>div {
     background-color: #eee;
+    border-top: 1px solid black;
 }
 
 .extra>div:nth-child(odd) {
     background-color: #fff;
+}
+
+.suggested {}
+
+.most-popular {
+    grid-column: 2/3;
+    grid-row: 1/4;
+}
+
+.most-popular h2 {
+    padding: 17px 0;
+    font-size: 16px;
+    color: #333;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    display: block;
+}
+
+.most-popular h3 {
+    display: block;
+    font-size: 19px;
+    padding: 15px 0;
+    color: #121212;
+    font-weight: 500;
+    font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+    border-top: 1px solid rgb(226, 226, 226);
+}
+
+.more-space-astro {}
+
+.editors-picks {
+    grid-column: 1/2;
 }
