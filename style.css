@@ -455,6 +455,69 @@ iframe {
 
 .suggested {}
 
+.suggested .card {
+    width: 271.33px;
+    height: 293px;
+    border: 1px solid rgb(118, 118, 118);
+    padding: 10px 20px;
+}
+
+.suggested .flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.suggested .flex-container-2 {
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.suggested .caption {
+    text-transform: uppercase;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-size: 0.6875rem;
+    line-height: 1rem;
+    font-weight: 500;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: rgb(51, 51, 51);
+}
+
+.suggested h3 {
+    margin-bottom: 6px;
+    font-size: 1.125rem;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-weight: 700;
+    line-height: 1.25rem;
+    color: rgb(18, 18, 18);
+}
+
+.suggested .info {
+    font-size: 1rem;
+    line-height: 1.25rem;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    letter-spacing: 0.2px;
+    color: rgb(51, 51, 51);
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.suggested .link {
+    color: rgb(50, 104, 145);
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.125rem;
+    letter-spacing: 0.2px;
+    align-self: flex-end;
+}
+
+.suggested img {
+    height: 82px;
+    width: 82px;
+}
+
 .most-popular {
     grid-column: 2/3;
     grid-row: 1/4;
