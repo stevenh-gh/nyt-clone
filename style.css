@@ -434,7 +434,8 @@ iframe {
     padding-top: 20px;
     padding-left: 3%;
     padding-right: 3%;
-    width: 1200px;
+    min-width: 1200px;
+    width: fit-content;
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: repeat(3, 1fr);
@@ -481,4 +482,53 @@ iframe {
 
 .editors-picks {
     grid-column: 1/2;
+}
+
+.editors-picks h2 {
+    display: block;
+    font-size: 16px;
+    color: #333;
+    padding-top: 17px;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    line-height: 1.375rem;
+    font-weight: 700;
+}
+
+.pick-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+.editors-picks .picks {
+    width: 272.625px;
+    height: 288.750px;
+}
+
+.editors-picks img {
+    width: 272.63px;
+    height: 181.75px;
+}
+
+.editors-picks h3 {
+    font-size: 18px;
+    color: #121212;
+    line-height: 1.375rem;
+    font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+}
+
+.editors-picks figcaption {
+    text-align: right;
+    margin-top: 3px;
+    padding-bottom: 4px;
+    font-size: 10px;
+    color: #999;
+    line-height: 1.23em;
+    font-family: nyt-cheltenham-small, georgia, "times new roman";
+}
+
+.editors-picks .date {
+    font-size: 12px;
+    color: #999;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
 }
