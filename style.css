@@ -550,10 +550,6 @@ iframe {
     border-top: 1px solid rgb(226, 226, 226);
 }
 
-.more-space-astro {
-    /* grid-row: 1/2; */
-}
-
 .more-space-astro h2 {
     display: block;
     padding-top: 17px;
