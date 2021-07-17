@@ -647,6 +647,56 @@ nav {
     padding: 0 3% 9px;
 }
 
+nav .flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav h3 {
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #333;
+    font-weight: 700;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    height: 25px;
+    line-height: 15px;
+}
+
+nav p,
+nav li {
+    font-size: 14px;
+    color: black;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    text-transform: capitalize;
+    font-weight: 500;
+    height: 23px;
+    line-height: 16px;
+}
+
+nav p:hover,
+nav li:hover {
+    text-decoration: underline;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+nav .sub-1 li {
+    font-size: 16px;
+    font-weight: 700;
+    height: 25px;
+    line-height: 15px;
+}
+
+nav .sub-2 li,
+nav .sub-3 li {
+    font-size: 11px;
+    font-weight: 500;
+    height: 23px;
+    line-height: 21px;
+}
+
 nav::before {
     background-color: #fff;
     border-bottom: 1px solid #e2e2e2;
@@ -660,4 +710,20 @@ nav::before {
 nav svg {
     width: 184px;
     height: 44px;
+}
+
+nav .sub {
+    border-left: 1px solid rgb(226, 226, 226);
+    padding-left: 15px;
+}
+
+nav .sub svg {
+    height: 13px;
+    width: 13px;
+}
+
+nav .sub .sub-3 {
+    border-top: 1px solid rgb(226, 226, 226);
+    margin-top: 2px;
+    padding-top: 10px;
 }
