@@ -441,7 +441,6 @@ iframe {
     grid-template-rows: repeat(3, 1fr);
     grid-auto-rows: minmax(500px, auto);
     grid-gap: 3em;
-    /* grid-auto-columns: minmax(60px, auto); */
 }
 
 .extra>div {
@@ -453,23 +452,31 @@ iframe {
     background-color: #fff;
 }
 
-.suggested {}
+.suggested h2 {
+    color: #333;
+    font-size: 16px;
+    padding: 17px 0;
+    line-height: 1.375rem;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-weight: 700;
+}
+
+.suggested .flex {
+    display: flex;
+    justify-content: space-between;
+}
 
 .suggested .card {
     width: 271.33px;
     height: 293px;
     border: 1px solid rgb(118, 118, 118);
     padding: 10px 20px;
+    position: relative;
 }
 
 .suggested .flex-container {
     display: flex;
     justify-content: space-between;
-}
-
-.suggested .flex-container-2 {
-    display: flex;
-    /* flex-direction: column; */
 }
 
 .suggested .caption {
@@ -510,7 +517,9 @@ iframe {
     font-weight: 700;
     line-height: 1.125rem;
     letter-spacing: 0.2px;
-    align-self: flex-end;
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
 }
 
 .suggested img {
