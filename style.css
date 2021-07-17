@@ -655,3 +655,8 @@ nav::before {
     height: 1px;
     margin-top: 0;
 }
+
+nav svg {
+    width: 184px;
+    height: 44px;
+}
