@@ -638,3 +638,20 @@ iframe {
     color: #999;
     font-family: nyt-franklin, helvetica, arial, sans-serif;
 }
+
+nav {
+    display: block;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 3% 9px;
+}
+
+nav::before {
+    background-color: #fff;
+    border-bottom: 1px solid #e2e2e2;
+    border-top: 2px solid #e2e2e2;
+    content: '';
+    display: block;
+    height: 1px;
+    margin-top: 0;
+}
