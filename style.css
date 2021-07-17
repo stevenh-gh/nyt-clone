@@ -10,6 +10,7 @@ header {
     padding: 4px 15px 2px;
     position: fixed;
     z-index: 2;
+    background-color: white;
 }
 
 .head-wrap {
@@ -441,15 +442,6 @@ iframe {
     grid-template-rows: repeat(3, 1fr);
     grid-template-rows: 349px 636.5px 342.750px;
     grid-gap: 1em;
-}
-
-.extra>div {
-    background-color: #eee;
-    border-top: 1px solid black;
-}
-
-.extra>div:nth-child(odd) {
-    background-color: #fff;
 }
 
 .suggested h2 {
