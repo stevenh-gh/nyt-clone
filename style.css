@@ -727,3 +727,13 @@ nav .sub .sub-3 {
     margin-top: 2px;
     padding-top: 10px;
 }
+
+footer {
+    padding-top: 9px;
+    border-top: 1px solid #ebebeb;
+    text-align: center;
+}
+
+footer ul {
+    margin-bottom: 35px;
+}
