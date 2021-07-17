@@ -736,4 +736,9 @@ footer {
 
 footer ul {
     margin-bottom: 35px;
+    text-transform: capitalize;
+}
+
+footer ul li {
+    display: inline-block;
 }
