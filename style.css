@@ -641,7 +641,8 @@ iframe {
 
 nav {
     display: block;
-    width: 1200px;
+    /* width: 1200px; */
+    width: 1280.13px;
     margin: 0 auto;
     padding: 0 3% 9px;
 }
