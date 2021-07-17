@@ -437,10 +437,10 @@ iframe {
     min-width: 1200px;
     width: fit-content;
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 852px 318px;
     grid-template-rows: repeat(3, 1fr);
-    grid-auto-rows: minmax(500px, auto);
-    grid-gap: 3em;
+    grid-template-rows: 349px 636.5px 342.750px;
+    grid-gap: 1em;
 }
 
 .extra>div {
@@ -548,6 +548,10 @@ iframe {
     font-weight: 500;
     font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
     border-top: 1px solid rgb(226, 226, 226);
+}
+
+.more-space-astro {
+    /* grid-row: 1/2; */
 }
 
 .more-space-astro h2 {
