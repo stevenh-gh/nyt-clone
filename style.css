@@ -767,3 +767,27 @@ nav .sub .sub-3 {
 footer ul li {
     display: inline-block;
 }
+
+#author-date {
+    margin: 30px auto;
+    padding: 0;
+    color: #333;
+}
+
+#author-date p:nth-child(1),
+#author-date p:nth-child(1) a {
+    font-size: 15px;
+    color: #333;
+    text-decoration: none;
+    line-height: 1.125rem;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-weight: 700;
+}
+
+#author-date p:nth-child(2) {
+    margin: 0;
+    font-size: 13px;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-weight: 500;
+    line-height: 1rem;
+}
