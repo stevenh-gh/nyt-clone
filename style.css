@@ -198,6 +198,14 @@ article section {
     width: 1200px;
 }
 
+#image-01 figcaption {
+    margin: 10px 300px 0 0;
+    font-size: 15px;
+    line-height: 1.25rem;
+    color: #666;
+    font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+}
+
 #image-02 {
     margin: auto;
     width: 720px;
