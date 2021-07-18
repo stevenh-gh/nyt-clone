@@ -444,6 +444,10 @@ iframe {
     grid-gap: 1em;
 }
 
+.extra>div {
+    border-top: 1px solid black;
+}
+
 .suggested h2 {
     color: #333;
     font-size: 16px;
