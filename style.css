@@ -720,7 +720,7 @@ nav .sub .sub-3 {
     padding-top: 10px;
 }
 
-footer {
+.footer {
     padding-top: 9px;
     border-top: 1px solid #ebebeb;
     text-align: center;
@@ -729,23 +729,23 @@ footer {
     margin: 0 auto;
 }
 
-footer p,
-footer li {
+.footer p,
+.footer li {
     padding: 10px 0;
     color: #666;
     font-size: 11px;
     font-family: nyt-franklin, helvetica, arial, sans-serif;
 }
 
-footer li {
+.footer li {
     padding: 0 10px;
 }
 
-footer li span {
+.footer li span {
     padding: 10px 0;
 }
 
-footer ul {
+.footer ul {
     margin-bottom: 35px;
     text-transform: capitalize;
 }
